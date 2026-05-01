@@ -23,18 +23,31 @@ The amplifier produces differential outputs, VOUT+ and VOUT−, which represent 
 Configuration  : Contains the PMOS and NMOS device parameters used in the amplifier, including transistor width, length,
                finger count, multipliers, dummy devices, and metal tie layers, which define the sizing and layout
                configuration of each transistor block.
+               
 x_distance    : Sets the horizontal separation between the left and right sides of the differential pair.
+
 row_gap       : Defines the vertical spacing between different transistor rows.
+
 bias_gap      : Defines the vertical spacing between the bias block and the main circuit.
+
 trunk_pitch_in: Controls the pitch (spacing/width) of the vertical routing trunks for the input signals.
+
 trunk_pitch_out: Controls the pitch of the vertical routing trunks for the output signals.
+
 outpad_margin : Sets the spacing buffer between the core amplifier layout and the I/O pads or chip boundary.
+
 outer_keepout : Defines the clearance distance for the outer guard ring.
+
 nmos_pair_outer_ring_padding: Sets the spacing between the NMOS differential pair and the outer guard ring.
+
 bias_gate_route_dx: Specifies the horizontal extension used to route the VBIAS connection.
+
 c_route_extension: Defines the extension length for the common routing path.
+
 vcm_dx        : Sets the horizontal offset for the VCM (common-mode voltage) connection.
+
 vin_dx        : Specifies the horizontal routing extension for the input connections.
+
 vout_dx       : Specifies the horizontal routing extension for the output connections.
 
 ```
